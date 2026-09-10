@@ -5,20 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font: 100% Verdana;
+            margin: 20px;
+            line-height: 26px;
+            margin-top: 43px;
+        }
+
+        .page {
+            position: relative;
+
+        }
+
+        h1 {
+            color: #4CAF50;
+            font-weight: bold;
+            display: block;
+        }
+
+        #headerp {
+            margin-bottom: 30px;
+        }
+
+        main {
+            position: relative;
+
+        }
+
+        .nav {
+            padding: 0;
+            position: relative;
+            overflow: auto;
+        }
+
+        li {
+            width: 165px;
+            float: left;
+            background-color: #555555;
+            color: white;
+            list-style-type: none;
+            margin: 4px;
+            padding: 2px;
+            text-align: center;
+        }
+
+        li#selected {
+            background-color: #04AA6D;
+        }
+
+        a {
+            color: black;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        sidebar {
+            background-color: #f1f1f1;
+            border: 1px solid #d4d4d4;
+            padding-left: 10px;
+            display: block;
+        }
+
+        h3 {
+            color: #4CAF50;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 70%;
+            line-height: 14px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="page">
         <header>
             <h1 id="title">Welcome to Ganguk Kim's Homepage</h1>
-            <p> Use the menu to select different Stylesheets</p>
+            <p id="headerp"> Use the menu to select different Stylesheets</p>
         </header>
 
         <main>
             <ul class="nav">
                 <li>Stylesheet 1</li>
                 <li>Stylesheet 2</li>
-                <li>Stylesheet 3</li>
+                <li id="selected">Stylesheet 3</li>
                 <li>Stylesheet 4</li>
                 <li>No Stylesheet</li>
             </ul>
@@ -29,19 +104,18 @@
                     change the
                     layout of this page by selecting different stylesheets in the menu, or by selecting one of the
                     following
-                    links:
+                    links: <br>
+                    <a href="#">Stylesheet1</a>,
+                    <a href="#">Stylesheet2</a>,
+                    <a href="#">Stylesheet3</a>,
+                    <a href="#">Stylesheet4</a>.
                 </p>
-                <a href="#">Stylesheet1,</a>
-                <a href="#">Stylesheet2,</a>
-                <a href="#">Stylesheet3,</a>
-                <a href="#">Stylesheet4.</a>
-
                 <h2>No Styles</h2>
                 <p class="blue">This page uses DIV elements to group different sections of the HTML page. Click here to
                     see
                     how the page
                     looks like with no stylesheet:
-                    <br> <a href="#">No Stylesheet.</a>
+                    <br> <a href="#">No Stylesheet</a>.
                 </p>
             </div>
 
@@ -53,8 +127,6 @@
                     magna aliquam erat volutpat.</p>
             </sidebar>
         </main>
-
-
 
         <footer>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
