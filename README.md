@@ -20,9 +20,22 @@ Assignment 02 수행 내용:
 Vercel Deploy URL: https://22300066-assign02.vercel.app/
 
 Key Learning: 이번 주 배운 핵심 내용 3가지:
-  1. 
-HTML vs CSS: HTML과 CSS의 역할을 자신의 말로 간단히 정리
-Bootstrap 사용법 : Bootstrap 사용하는 이유 및 사용법 간단히 정리
-Problem & Solution: 실습 중 발생한 문제와 해결 과정 1가지
-AI Usage: AI를 어떤 부분에 활용했으며, 생성된 코드를 어떻게 확인/수정했는지 작성
-Reflection: 새롭게 알게 된 점 또는 궁금한 점 1가지
+  1. Semantic HTML 및 Selector
+  2. padding과 margin
+  3. 개발자 도구 사용법
+
+HTML vs CSS: HTML과 CSS의 역할을 자신의 말로 간단히 정리:
+HTML은 구조와 내용을 담당하며 CSS는 디자인을 담당한다.
+
+Bootstrap 사용법 : Bootstrap 사용하는 이유 및 사용법 간단히 정리: 
+.
+
+Problem & Solution: 실습 중 발생한 문제와 해결 과정 1가지:
+Organization으로 git clone을 하여 작업을 시작하고 마무리 되었을 때 개인 repository로 옮겨야 하는 문제.
+-> git remote set-url 을 사용하여 commit 기록도 그대로 옮길 수 있었음.
+
+AI Usage: AI를 어떤 부분에 활용했으며, 생성된 코드를 어떻게 확인/수정했는지 작성:
+개인 repository로 옮기는 데 set-url을 알려주었음
+
+Reflection: 새롭게 알게 된 점 또는 궁금한 점 1가지:
+index.html이 웹 서버가 접속했을 때 가장 먼저 찾는 default 페이지라는 것을 알게 됨.
